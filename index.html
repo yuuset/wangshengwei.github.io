@@ -1,11 +1,131 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>我的網站</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的自我介紹</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Microsoft JhengHei", Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 40px;
+      color: #1f4e79;
+    }
+
+    .header p {
+      font-size: 18px;
+      color: #666;
+      margin-top: 10px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      color: #1f4e79;
+      border-left: 6px solid #1f4e79;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+
+    .info-list {
+      line-height: 1.9;
+      font-size: 17px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background-color: #e8f1fb;
+      color: #1f4e79;
+      padding: 8px 14px;
+      margin: 6px;
+      border-radius: 20px;
+      font-size: 15px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #777;
+      font-size: 14px;
+    }
+
+    .highlight {
+      color: #d35400;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <h1>🚀 成功了！</h1>
-  <p>這是 wangshengwei 的第一個網站</p>
+  <div class="container">
+    <div class="header">
+      <h1>自我介紹</h1>
+      <p>您好，我是 <span class="highlight">王勝偉</span></p>
+    </div>
+
+    <div class="section">
+      <h2>基本資料</h2>
+      <div class="info-list">
+        姓名：王勝偉<br>
+        學校：國立勤益科技大學<br>
+        科系：智慧自動化工程系<br>
+        興趣：程式設計、人工智慧、專題研究
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>關於我</h2>
+      <div class="info-list">
+        我是一名對科技與創新充滿熱情的大學生，目前就讀於國立勤益科技大學智慧自動化工程系。
+        我對人工智慧、影像辨識、系統整合以及自動化應用特別有興趣，並且持續透過課程與專題研究來提升自己的實作能力。
+        希望未來能夠將所學應用在智慧製造、AI辨識系統以及自動控制相關領域。
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>技能專長</h2>
+      <div class="skills">
+        <span>Python</span>
+        <span>HTML / CSS</span>
+        <span>ESP32</span>
+        <span>影像辨識</span>
+        <span>機器學習</span>
+        <span>自動化控制</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>學習目標</h2>
+      <div class="info-list">
+        我希望未來能持續精進程式設計能力、深入學習人工智慧與深度學習技術，
+        並結合硬體與軟體開發，完成更多具有實際應用價值的專題作品。
+      </div>
+    </div>
+
+    <div class="footer">
+      © 2026 王勝偉 個人自我介紹網頁
+    </div>
+  </div>
 </body>
 </html>
